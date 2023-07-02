@@ -30,7 +30,7 @@
     <finalName>myname</finalName>
     <plugins>
 
-      <!-- Set Executable Class-->
+      <!-- Set Executable Class
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
         <artifactId>maven-jar-plugin</artifactId>
@@ -42,7 +42,7 @@
             </manifest>
           </archive>
         </configuration>
-      </plugin>
+      </plugin>-->
 
       <!-- Maven Assembly Plugin -->
       <plugin>
@@ -53,6 +53,7 @@
 
         <configuration>
           <finalName>myname</finalName>
+          <appendAssemblyId>false</appendAssemblyId>
 
           <descriptorRefs>
 
